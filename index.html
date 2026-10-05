@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#071c2c">
+  <meta name="description" content="Akvaryumda üç keşif görevi, dijital damgalar ve sana özel bir kaşif sertifikası.">
+  <title>Mercan Rotası · Okyanus Kaşifi</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='9' fill='%23071c2c'/%3E%3Cpath d='M5 13q5-6 11 0t11 0M5 21q5-6 11 0t11 0' fill='none' stroke='%2355ddd0' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="visual-v3.css">
+  <script src="vendor/jsQR.js" defer></script>
+  <script src="data.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <div class="ocean-atmosphere" aria-hidden="true"><div class="ocean-rays"></div><i></i><i></i><i></i><i></i><i></i></div>
+  <a class="skip-link" href="#main">İçeriğe geç</a>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="Okyanus Kaşifi başlangıç">
+      <span class="brand-symbol" aria-hidden="true">≈</span>
+      <span>Okyanus <strong>Kaşifi</strong><small>DİJİTAL PASAPORT</small></span>
+    </a>
+    <div class="header-actions"><span class="edition">MERCAN ROTASI / 01</span><button class="icon-button" id="help-button" aria-label="Nasıl oynanır?">?</button></div>
+  </header>
+  <main id="main" tabindex="-1"></main>
+  <nav class="bottom-nav" id="bottom-nav" aria-label="Ana gezinme" hidden></nav>
+  <dialog id="modal" aria-labelledby="modal-title"></dialog>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+  <div class="sr-only" id="announcement" aria-live="polite"></div>
+</body>
+</html>

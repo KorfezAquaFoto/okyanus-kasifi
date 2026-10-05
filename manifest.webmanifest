@@ -1,0 +1,11 @@
+{
+  "name": "Okyanus Kaşifi · Dijital Pasaport",
+  "short_name": "Okyanus Kaşifi",
+  "lang": "tr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#071c2c",
+  "theme_color": "#071c2c",
+  "icons": [{"src":"assets/turtle.svg","sizes":"any","type":"image/svg+xml","purpose":"any"}]
+}
